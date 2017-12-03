@@ -1,0 +1,85 @@
+.circular--landscape {
+  display: block;
+  /*position: relative;*/
+  width: 180px;
+  height: 180px;
+  overflow: hidden;
+  border-radius: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: fill!important;
+}
+
+/*.circular--landscape:hover {
+  
+}*/
+
+.circular--landscape--micro {
+  display: block;
+  /*position: relative;*/
+  width: 35px;
+  height: 35px;
+  margin-left: 20px;
+  overflow: hidden;
+  border-radius: 50%;
+  -webkit-transition: border-radius 0.5s;
+  transition: border-radius 0.5s;
+  object-fit: fill!important;
+}
+
+/* Dropzone ==================================== */
+.dropzone {
+  border: 2px dashed transparent !important;
+  background-color: #d7dbdd!important;
+  opacity: 0.5;
+}
+
+.dropzone:hover {
+  border: 2px dashed transparent !important;
+  background-color: #d7dbdd!important;
+  opacity: 0.8;
+}
+
+.dropzone .dz-message .drag-icon-cph .material-icons {
+	font-size: 80px;
+	color: #777; 
+}
+
+.dz-drag-hover {
+  border: 2px solid #888 !important; }
+
+.error-message {
+	margin-left: 20px;
+	color: red;
+	font-size: 14px;
+	font-style: italic;
+}
+
+.mustang-addteam-btn {
+	
+}
+
+.myfooter {
+	background-color: #009688;
+	color: white;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+.myfooter-small-link a{
+	font-size: 15px;
+	color: white;
+	text-shadow: 0 0 3px black;
+}
+
+.team_card {
+  cursor: pointer;
+}
+
+.team-info td {
+  font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 18px;
+}
